@@ -15,10 +15,10 @@ void times_table(void)
 	{
 		_putchar(',');
 		_putchar(' ');
-	z = x * y;
-	if (z <= 9)
-		_putchar(' ');
-	else
+		z = x * y;
+		if (z <= 9)
+			_putchar(' ')
+		else
 		_putchar((z / 10) + '0');
 		_putchar((z % 10) + '0');
 	}
