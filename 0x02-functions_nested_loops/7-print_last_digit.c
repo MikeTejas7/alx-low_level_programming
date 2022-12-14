@@ -2,17 +2,17 @@
 
 /**
  *print_last_digit - Fx that print the last digit no.
- *@l: given value
+ *@r: given value
  *Return: 0
  */
-int print_last_digit(int l)
+int print_last_digit(int r)
 {
 	int i;
 
-	if (l < 0)
-		i = -1 * (l % 10);
+	if (r < 0)
+		i = -1 * (r % 10);
 	else
-		i = l % 10;
-	_putchar((n % 10) + '0');
-	return (n % 10);
+		i = r % 10;
+	_putchar((i % 10) + '0');
+	return (i % 10);
 }
