@@ -5,6 +5,7 @@
  * main - Prime factors
  * Return: 0
  */
+
 int main(void)
 {
 	long int n;
@@ -29,6 +30,7 @@ int main(void)
 	}
 	if (n > 2)
 		max = n;
+
 	printf("%ld\n", max);
 
 	return (0);
