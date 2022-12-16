@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _isupper - Fx that checks for uppercase xter
- * @c: int c
- * Return: 1 if c is uppercase, 0 otherwise
+ * _isupper - Fx that check for uppercase xter
+ * @c: int type number
+ * Return: 0
  */
 
 int _isupper(int c)
