@@ -4,11 +4,14 @@
  * print_numbers - Fx that prints the number 0 - 9
  * Return: void
  */
+
 void print_numbers(void)
 {
-	int j;
+	int n;
 
-	for (j = 0; j < 10; j++)
-		_putchar(j + '0');
-	_putchar('\n');
+	for (n = 48; n < 58; n++)
+	{
+		_putchar(n);
+	}
+	_putchar(10);
 }
