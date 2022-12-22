@@ -10,6 +10,7 @@ void reverse_array(int *a, int n);
 char *string_toupper(char *a);
 char *cap_string(char *c);
 char *rot13(char *a);
+char *leet(char *n);
 void print_number(int n);
 
 #endif
