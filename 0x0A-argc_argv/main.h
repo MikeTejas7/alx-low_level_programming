@@ -2,5 +2,6 @@
 #define MAIN_H
 
 int _putchar(char c);
+unsigned int coin_count(unsigned int count, int num);
 
 #endif
