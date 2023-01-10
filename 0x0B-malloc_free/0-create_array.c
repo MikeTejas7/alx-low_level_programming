@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * create_array - Fx that creates an array of chars, & initializes it witha spec char
+ * create_array - Fx that creates an array of chars, & initializes it witha spe
  * @size: size of array
  * @c: character to init array
  * Return: 0
