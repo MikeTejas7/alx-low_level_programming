@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdlib.h>
 /**
  * create_array - Fx that creates an array of chars, & initializes it witha spe
  * @size: size of array
